@@ -3,7 +3,7 @@ CXXFLAGS  = -O2 -fPIC -c
 SWIGFLAGS = -c++ -python -shadow  
 
 # location of the Python header files
-PYTHON_VERSION = 3.6
+PYTHON_VERSION = 3.8
 PYTHON_INCLUDE = /usr/include/python$(PYTHON_VERSION)
 
 TARGET = number
